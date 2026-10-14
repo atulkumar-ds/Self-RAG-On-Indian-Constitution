@@ -1,0 +1,64 @@
+ .dvcignore                               |    3 [32m+[m
+ .gitignore                               |   29 [32m+[m
+ Backend/README.md                        |   65 [32m+[m
+ Backend/__init__.py                      |    0
+ Backend/config.yaml                      |    7 [32m+[m
+ Backend/main.py                          |  133 [32m++[m
+ Backend/workflow_image.png               |  Bin [31m0[m -> [32m87531[m bytes
+ README.md                                |  445 [32m+++++[m
+ assets/demo_cli.png                      |  Bin [31m0[m -> [32m67900[m bytes
+ assets/demo_frontend.png                 |  Bin [31m0[m -> [32m213992[m bytes
+ data/README.md                           |   36 [32m+[m
+ data/articles.json                       |  470 [32m++++++[m
+ data/optimal_k_inertia.png               |  Bin [31m0[m -> [32m25290[m bytes
+ data/penal_code_sections.json            |  577 [32m+++++++[m
+ dvc.lock                                 |   82 [32m+[m
+ dvc.yaml                                 |   49 [32m+[m
+ frontend/.env.example                    |    3 [32m+[m
+ frontend/.gitignore                      |    5 [32m+[m
+ frontend/README.md                       |  127 [32m++[m
+ frontend/index.html                      |   23 [32m+[m
+ frontend/package-lock.json               | 1698 [32m+++++++++++++++++++[m
+ frontend/package.json                    |   20 [32m+[m
+ frontend/src/App.jsx                     |  312 [32m++++[m
+ frontend/src/components/Composer.jsx     |   64 [32m+[m
+ frontend/src/components/Exchange.jsx     |   76 [32m+[m
+ frontend/src/components/MarginLedger.jsx |   71 [32m+[m
+ frontend/src/components/Opening.jsx      |   52 [32m+[m
+ frontend/src/components/Passages.jsx     |   53 [32m+[m
+ frontend/src/components/ThreadRail.jsx   |   80 [32m+[m
+ frontend/src/lib/api.js                  |  122 [32m++[m
+ frontend/src/lib/markdown.js             |   97 [32m++[m
+ frontend/src/lib/nodes.js                |   57 [32m+[m
+ frontend/src/lib/sse.js                  |   85 [32m+[m
+ frontend/src/main.jsx                    |   10 [32m+[m
+ frontend/src/styles.css                  | 1018 [32m+++++++++++[m
+ frontend/vite.config.js                  |   25 [32m+[m
+ notebooks/README.md                      |   19 [32m+[m
+ notebooks/data_collector.ipynb           |  899 [32m++++++++++[m
+ notebooks/ragas.ipynb                    | 2688 [32m++++++++++++++++++++++++++++++[m
+ notebooks/ragas_results.ipynb            | 1749 [32m+++++++++++++++++++[m
+ notebooks/srag.ipynb                     | 1158 [32m+++++++++++++[m
+ params.yaml                              |   11 [32m+[m
+ pyproject.toml                           |   37 [32m+[m
+ src/README.md                            |   47 [32m+[m
+ src/cli.py                               |  101 [32m++[m
+ src/create_vector_store.py               |   41 [32m+[m
+ src/evaluation/README.md                 |   53 [32m+[m
+ src/evaluation/clustering.py             |   90 [32m+[m
+ src/evaluation/config.yaml               |   35 [32m+[m
+ src/evaluation/evaluate.py               |  368 [32m++++[m
+ src/evaluation/knowledge_graph.py        |  110 [32m++[m
+ src/evaluation/test_set_generation.py    |   72 [32m+[m
+ src/workflow/README.md                   |   57 [32m+[m
+ src/workflow/__init__.py                 |  130 [32m++[m
+ src/workflow/config.py                   |   88 [32m+[m
+ src/workflow/config.yaml                 |   46 [32m+[m
+ src/workflow/edges.py                    |   20 [32m+[m
+ src/workflow/nodes.py                    |  480 [32m++++++[m
+ src/workflow/prompts.py                  |  233 [32m+++[m
+ src/workflow/schemas.py                  |   89 [32m+[m
+ src/workflow/state.py                    |   44 [32m+[m
+ src/workflow_image.png                   |  Bin [31m0[m -> [32m86941[m bytes
+ workflow_image.png                       |  Bin [31m0[m -> [32m87531[m bytes
+ 63 files changed, 14559 insertions(+)
